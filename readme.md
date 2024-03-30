@@ -1,6 +1,6 @@
 # Three.js Journey
 
-## Previw  
+## Preview  
 <img width="1266" alt="Screenshot 2024-03-30 at 5 05 18 PM" src="https://github.com/KishanBapodra/Halloween-House/assets/60054955/7710c364-4e17-4d25-b83e-89c9ec71cd52">
 
 ## Setup
