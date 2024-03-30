@@ -385,24 +385,8 @@ const tick = () =>
 
 tick()
 
-// exporter.parse(
-//     scene,
-//     function (result) {
-//       // Create a blob from the exported data
-//       const blob = new Blob([result], { type: 'model/gltf-binary' });
-  
-//       // Create a download link
-//       const downloadLink = document.createElement('a');
-//       downloadLink.download = 'scene.glb';
-//       downloadLink.href = URL.createObjectURL(blob);
-//       downloadLink.click();
-//     },
-//     function (error) {
-//       console.error('An error occurred while exporting the scene:', error);
-//     },
-//     { binary: true } // Export as binary .glb file
-//   );
-
+/**
+ * To export as gltf file to use in blender
 exportButton.addEventListener('click', () => {
     // Create an exporter instance
     const exporter = new GLTFExporter();
@@ -426,3 +410,4 @@ exportButton.addEventListener('click', () => {
       { binary: true } // Export as binary .glb file
     );
   });
+*/
